@@ -1,0 +1,25 @@
+{
+  "name": "testing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/inert": "^7.1.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.15.0",
+    "firebase": "^11.0.2",
+    "firebase-admin": "^13.0.1",
+    "google-auth-library": "^9.15.0",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7"
+  }
+}
