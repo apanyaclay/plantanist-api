@@ -1,6 +1,6 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI("AIzaSyBMqNyHGgMdZcxWC5Fwz_3O15o2lUo2w8Q");
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 const generatePlantDiseaseDescription = async (name, plant, accuracy) => {
