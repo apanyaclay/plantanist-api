@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "c77edcef-4f05-4b83-8d3d-7064bc83b28a",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13894630"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNmZDA3MmRmYTM4MDU2NzlmMTZmZTQxNzM4YzJhM2FkM2Y5MGIyMTQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSm9oYW5lcyBOaWNreSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKZ3RXT2M5WlpqblljS3JNLVhHUG1JYWNPWDlYSGxYNm5zWlJGQ2ppU2hvc0dvUy1VOD1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9wbGFudGFuaXN0LWxvZ2luIiwiYXVkIjoicGxhbnRhbmlzdC1sb2dpbiIsImF1dGhfdGltZSI6MTczMzMzNjkwNCwidXNlcl9pZCI6IkRXYzdIa042dGtOUGhaalRRRkNpREtRWE9URjIiLCJzdWIiOiJEV2M3SGtONnRrTlBoWmpUUUZDaURLUVhPVEYyIiwiaWF0IjoxNzMzMzM2OTA0LCJleHAiOjE3MzMzNDA1MDQsImVtYWlsIjoiai5iYXB0aXN0YTU3QHlhaG9vLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTE2MDA5Mzk1Nzg3NjQ1MjU3NDI3Il0sImVtYWlsIjpbImouYmFwdGlzdGE1N0B5YWhvby5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.khQiAnC4pD9RjhJ03DtaGHrcP9vV0tAdaq5M9cyWOfbEKO-QrPU7S6Dxl_WXwPQRVEB6fYRjp3wVJb5XIffyp9MREB01jfSa9SQPkMuqw-YCTvdYvLtk4O14Dtu-2Uyk2xxW4LGSa3ROlsoa605omJB7wTwDAlzLKaZpxgSO6oEGyT9XbnH0sqKd2OV92lt4MgL-ORHQ-TR_TfS1JLhUjspIRzLR_UIJV1ffu5COUrclmu9fLOOcWrFGuu1ESYpvqlqXXvd187ZvMhCqY6fF34I2eg4xI0TH6ImzE1nJKAhpTl0Au8ExFLq-5P2KzMuDAlNI5jLPNmSLamT-mJyX_w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idToken\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6IjNmZDA3MmRmYTM4MDU2NzlmMTZmZTQxNzM4YzJhM2FkM2Y5MGIyMTQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSm9oYW5lcyBOaWNreSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKZ3RXT2M5WlpqblljS3JNLVhHUG1JYWNPWDlYSGxYNm5zWlJGQ2ppU2hvc0dvUy1VOD1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9wbGFudGFuaXN0LWxvZ2luIiwiYXVkIjoicGxhbnRhbmlzdC1sb2dpbiIsImF1dGhfdGltZSI6MTczMzMzNjkwNCwidXNlcl9pZCI6IkRXYzdIa042dGtOUGhaalRRRkNpREtRWE9URjIiLCJzdWIiOiJEV2M3SGtONnRrTlBoWmpUUUZDaURLUVhPVEYyIiwiaWF0IjoxNzMzMzM2OTA0LCJleHAiOjE3MzMzNDA1MDQsImVtYWlsIjoiai5iYXB0aXN0YTU3QHlhaG9vLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTE2MDA5Mzk1Nzg3NjQ1MjU3NDI3Il0sImVtYWlsIjpbImouYmFwdGlzdGE1N0B5YWhvby5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.khQiAnC4pD9RjhJ03DtaGHrcP9vV0tAdaq5M9cyWOfbEKO-QrPU7S6Dxl_WXwPQRVEB6fYRjp3wVJb5XIffyp9MREB01jfSa9SQPkMuqw-YCTvdYvLtk4O14Dtu-2Uyk2xxW4LGSa3ROlsoa605omJB7wTwDAlzLKaZpxgSO6oEGyT9XbnH0sqKd2OV92lt4MgL-ORHQ-TR_TfS1JLhUjspIRzLR_UIJV1ffu5COUrclmu9fLOOcWrFGuu1ESYpvqlqXXvd187ZvMhCqY6fF34I2eg4xI0TH6ImzE1nJKAhpTl0Au8ExFLq-5P2KzMuDAlNI5jLPNmSLamT-mJyX_w\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/diagnoses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"diagnoses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNmZDA3MmRmYTM4MDU2NzlmMTZmZTQxNzM4YzJhM2FkM2Y5MGIyMTQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiSm9oYW5lcyBOaWNreSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKZ3RXT2M5WlpqblljS3JNLVhHUG1JYWNPWDlYSGxYNm5zWlJGQ2ppU2hvc0dvUy1VOD1zOTYtYyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9wbGFudGFuaXN0LWxvZ2luIiwiYXVkIjoicGxhbnRhbmlzdC1sb2dpbiIsImF1dGhfdGltZSI6MTczMzMzNzE0NiwidXNlcl9pZCI6IkRXYzdIa042dGtOUGhaalRRRkNpREtRWE9URjIiLCJzdWIiOiJEV2M3SGtONnRrTlBoWmpUUUZDaURLUVhPVEYyIiwiaWF0IjoxNzMzMzM3MTQ2LCJleHAiOjE3MzMzNDA3NDYsImVtYWlsIjoiai5iYXB0aXN0YTU3QHlhaG9vLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTE2MDA5Mzk1Nzg3NjQ1MjU3NDI3Il0sImVtYWlsIjpbImouYmFwdGlzdGE1N0B5YWhvby5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJnb29nbGUuY29tIn19.WR09TrhNAyfWbQ0-JpLrPzvkrQhrbbSBJSdgnI65xgDSN6GWwg3ihfxSdYqmm3meqbDglPrw1Elpdp38pL0Nt0_rZecyNPyySbLIm0VKWJz0Q5Tx6WuEcOZRaNp-sybkzDoO_VOiJpeMazl_O56idarut13xWPGq30s13m6oni_ozgzbbqiijnkz3tLn5oxasrFWMrOaB1327wrSKmcFO03UOFOcGi5h8BHRjUO7wknB3gRdc8VgUw0DS5eK9fjk2V07kHAoIRzoYY2ayh_nvXxtUzgPFUJVbna_Fq9SyunetvRVAPUK8F2t99Z5xrfO5HbJuUkF7OjCChCic76T8A",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Late Blight\",\r\n    \"plant\": \"Potato\",\r\n    \"accuracy\": 0.86,\r\n    \"image\": \"https://lh3.googleusercontent.com/a/ACg8ocJgtWOc9ZZjnYcKrM-XGPmIacOX9XHlX6nsZRFCjiShosGoS-U8=s96-c\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
